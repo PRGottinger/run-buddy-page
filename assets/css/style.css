@@ -58,6 +58,13 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -118,9 +125,15 @@ header nav ul li a {
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
+  background-color: rgba(255, 255, 255, 0.75);
   width: 100%;
   margin-bottom: 15px;
   border-radius: 15px;
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .hero-form button {
@@ -130,6 +143,10 @@ header nav ul li a {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 15px;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;
 }
 
 /* Hero Style End*/
@@ -167,6 +184,10 @@ header nav ul li a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -313,9 +334,15 @@ header nav ul li a {
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
+  background-color: rgba(255, 255, 255, 0.75);
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .contact-form button {
@@ -326,6 +353,11 @@ header nav ul li a {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 /*reach out styles end */
